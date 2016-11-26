@@ -1,0 +1,106 @@
+$popular-color: #45b8fb;
+$header-color: #747474;
+
+header{
+  width: 776px;
+  margin: 0 212px 0 210px;
+  border-bottom: 1px solid gray;
+}
+.pading{
+  width: 300px;
+  margin: 41px 0 39px 0;
+}
+.size{
+  padding: 0 0 0 440px;
+}
+.left-a {
+  float: left;
+  margin-right: -5px;
+}
+.title-width{
+  width: 120px;
+  padding: 19px 0 0 170px;
+  }
+.register-margin{
+  margin-left: 176px;
+  width: 160px;
+}
+.border-radius{
+  background: white;
+  border-radius: 0 0 15px 15px;
+  padding: 7px;
+}
+.title{
+  color: #939598;
+  line-height: 19px;
+  font: normal 500 21px  Arial ;
+}
+.a-color{
+  line-height: 63px;
+  font: normal 400 11px  Arial ;
+}
+.right-a-color {
+  color: $popular-color;
+  padding: 0 8px 0 18px;
+}
+.left-a-color {
+  color: $header-color;
+  border-right: 1px solid gray;
+  padding: 0 20px 0 8px;
+}
+.h-margin{
+  margin: 38px auto 42px auto ;
+}
+.bold{
+  color: #646464;
+  font: normal 400 15px   Helios ;
+  line-height: 33px;
+}
+.tabs {
+  padding: 0px;
+  margin-left: 350px;
+}
+.tabs-color{
+  color: $header-color;
+  font: normal 400 16px  Arial ;
+}
+.tabs-first-color{
+  color: $popular-color;
+}
+.last, .second, .first{
+  display: inline-block;
+  padding: 15px 25px;
+  margin: 0 0 -1px;
+  font-weight: 600;
+  text-align: center;
+  border: 1px solid gray;
+  background-color: #dad9d7;
+}
+
+.first-tab {
+  background: white;
+  border-radius: 15px 0 0 0;
+  border-bottom: 1px solid white;
+}
+.last {
+  border-radius: 0 15px 0 0;
+}
+.tabs {
+  li {
+      &:hover {
+        background: white;
+        cursor: pointer;
+        margin: 0 0 -1px;
+        border-bottom: 1px solid white;
+    }
+  }
+}
+.tabs {
+  li {
+    a {
+      &:hover {
+        color: $popular-color;
+      }
+    }
+  }
+}
