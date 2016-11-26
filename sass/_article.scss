@@ -1,0 +1,123 @@
+article{
+  width: 528px;
+  margin: 64px 0px 250px 210px;
+  padding-left: 251px;
+}
+.font-article{
+  color: #010101;
+  font: normal 400 26px  Arial ;
+  line-height: 33px;
+  padding-bottom: 16px;
+}
+.pading-img{
+  padding: 17px 0 156px 0;
+  margin-right: 21px;
+}
+.border-table{
+  border-top: 1px solid #03a7fe;
+  border-bottom: 1px solid #03a7fe ;
+}
+dl{
+  width: 393px;
+  margin-bottom: 18px;
+}
+.company{
+  text-align: left;
+  color: #03a7fe;
+  font: normal 400 22px  Arial ;
+  line-height: 33px;
+}
+dd,dt{
+  background: #f3f5f6;
+}
+.special-dt{
+  background: #eceff0;
+}
+
+.font-awesome-tumbl:before{
+  content: "\f173";
+  font-family: FontAwesome;
+  color: gray;
+}
+.font-awesome-skype:before{
+  content: "\f17e";
+  font-family: FontAwesome;
+  color: gray;
+}
+.font-awesome-phone:before{
+  content: "\f095";
+  font-family: FontAwesome;
+  color: gray;
+}
+.font-awesome-email:before{
+  content: "\f1fa";
+  font-family: FontAwesome;
+  color: gray;
+}
+dl {
+  padding: 0;
+  margin-left:120px;
+}
+.table-a{
+  color: #03a7fe;
+  font: normal 400 12px  Arial ;
+  line-height: 33px;
+}
+dl {
+  overflow: hidden;
+  color: #505050;
+  font: normal 400 12px  Arial ;
+  line-height: 33px;
+}
+dt {
+  float: left;
+  margin-right: 4px;
+  text-align: right;
+}
+dd{
+  margin-bottom: 4px;
+  padding-left: 200px;
+}
+.font{
+  font-family: Arial;
+  font-weight: 400;
+  color: #444;
+  font-size: 14px;
+  line-height: 19px;
+}
+.font-h{
+  @extend .font;
+  color: #03a7fe;
+  font-size: 18px;
+}
+.goals{
+  color: #010101;
+  font-family: Arial;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 33px;
+}
+h2.goals{
+  padding-bottom: 18px;
+  border-bottom: 1px solid #03a7fe ;
+  margin-bottom: 14px;
+}
+.picture{
+  padding: 15px 0 25px 0;
+}
+h3.font-h{
+  padding: 15px 0 15px 0;
+}
+.font-awesome-comment{
+    &:after{
+      content: "\f111 \f111 \f111";
+      font-family: FontAwesome;
+      color: #03a7fe;
+
+  }
+}
+span.goals{
+  padding-bottom: 18px;
+  border-bottom: 1px solid #03a7fe ;
+  margin-bottom: 14px;
+}
