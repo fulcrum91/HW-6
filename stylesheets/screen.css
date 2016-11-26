@@ -1,0 +1,478 @@
+@charset "UTF-8";
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+@font-face {
+  font-family: AFKlampenborg;
+  src: url(../fonts/afklampenborg-medium-webfont.eot);
+  src: url(../fonts/afklampenborg-medium-webfont.ttf);
+  src: url(../fonts/afklampenborg-medium-webfont.woff);
+  src: url(../fonts/afklampenborg-medium-webfont.woff2);
+}
+@font-face {
+  font-family: Helios;
+  src: url(../fonts/HeliosExtThin-webfont.eot);
+  src: url(../fonts/HeliosExtThin-webfont.ttf);
+  src: url(../fonts/HeliosExtThin-webfont.woff);
+  src: url(../fonts/HeliosExtThin-webfont.woff2);
+}
+header {
+  width: 776px;
+  margin: 0 212px 0 210px;
+  border-bottom: 1px solid gray;
+}
+
+.pading {
+  width: 300px;
+  margin: 41px 0 39px 0;
+}
+
+.size {
+  padding: 0 0 0 440px;
+}
+
+.left-a {
+  float: left;
+  margin-right: -5px;
+}
+
+.title-width {
+  width: 120px;
+  padding: 19px 0 0 170px;
+}
+
+.register-margin {
+  margin-left: 176px;
+  width: 160px;
+}
+
+.border-radius {
+  background: white;
+  border-radius: 0 0 15px 15px;
+  padding: 7px;
+}
+
+.title {
+  color: #939598;
+  line-height: 19px;
+  font: normal 500 21px Arial;
+}
+
+.a-color {
+  line-height: 63px;
+  font: normal 400 11px Arial;
+}
+
+.right-a-color {
+  color: #45b8fb;
+  padding: 0 8px 0 18px;
+}
+
+.left-a-color {
+  color: #747474;
+  border-right: 1px solid gray;
+  padding: 0 20px 0 8px;
+}
+
+.h-margin {
+  margin: 38px auto 42px auto;
+}
+
+.bold {
+  color: #646464;
+  font: normal 400 15px Helios;
+  line-height: 33px;
+}
+
+.tabs {
+  padding: 0px;
+  margin-left: 350px;
+}
+
+.tabs-color {
+  color: #747474;
+  font: normal 400 16px Arial;
+}
+
+.tabs-first-color {
+  color: #45b8fb;
+}
+
+.last, .second, .first {
+  display: inline-block;
+  padding: 15px 25px;
+  margin: 0 0 -1px;
+  font-weight: 600;
+  text-align: center;
+  border: 1px solid gray;
+  background-color: #dad9d7;
+}
+
+.first-tab {
+  background: white;
+  border-radius: 15px 0 0 0;
+  border-bottom: 1px solid white;
+}
+
+.last {
+  border-radius: 0 15px 0 0;
+}
+
+.tabs li:hover {
+  background: white;
+  cursor: pointer;
+  margin: 0 0 -1px;
+  border-bottom: 1px solid white;
+}
+
+.tabs li a:hover {
+  color: #45b8fb;
+}
+
+ol li {
+  list-style-type: none;
+  border-bottom: 1px solid gray;
+}
+
+ol li:before {
+  content: "\f178";
+  font-family: FontAwesome;
+  color: #03a7fe;
+  margin-right: 10px;
+}
+
+.p-aside {
+  margin-bottom: 22px;
+}
+
+.details {
+  display: inline-block;
+  width: 230px;
+  margin: 25px 0 0 210px;
+}
+
+.deteils-fonts {
+  font: normal 400 20px Arial;
+  line-height: 33px;
+}
+
+.h-color {
+  color: #03a7fe;
+}
+
+li a {
+  color: #555;
+  width: 103px;
+  height: 508px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 33px;
+}
+
+ol {
+  padding-bottom: 48px;
+  border-bottom: 1px solid gray;
+}
+
+button {
+  margin: 15px 0 15px 65px;
+  width: 102px;
+  height: 33px;
+  border: 3px solid #ff9600;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.font-buton {
+  color: #939598;
+  font: normal 500 21px AFKlampenborg;
+  line-height: 19px;
+}
+
+.img {
+  -webkit-filter: grayscale(1);
+  /* Webkit ╨▒╤А╨░╤Г╨╖╨╡╤А╤Л */
+  filter: grayscale(1);
+  /* W3C */
+}
+.img:hover {
+  filter: grayscale(0);
+}
+
+.div-img {
+  border-top: 1px solid gray;
+  padding: 30px 0 0 45px;
+}
+
+div .div-img img {
+  width: 130px;
+}
+
+article {
+  width: 528px;
+  margin: 64px 0px 250px 210px;
+  padding-left: 251px;
+}
+
+.font-article {
+  color: #010101;
+  font: normal 400 26px Arial;
+  line-height: 33px;
+  padding-bottom: 16px;
+}
+
+.pading-img {
+  padding: 17px 0 156px 0;
+  margin-right: 21px;
+}
+
+.border-table {
+  border-top: 1px solid #03a7fe;
+  border-bottom: 1px solid #03a7fe;
+}
+
+dl {
+  width: 393px;
+  margin-bottom: 18px;
+}
+
+.company {
+  text-align: left;
+  color: #03a7fe;
+  font: normal 400 22px Arial;
+  line-height: 33px;
+}
+
+dd, dt {
+  background: #f3f5f6;
+}
+
+.special-dt {
+  background: #eceff0;
+}
+
+.font-awesome-tumbl:before {
+  content: "\f173";
+  font-family: FontAwesome;
+  color: gray;
+}
+
+.font-awesome-skype:before {
+  content: "\f17e";
+  font-family: FontAwesome;
+  color: gray;
+}
+
+.font-awesome-phone:before {
+  content: "\f095";
+  font-family: FontAwesome;
+  color: gray;
+}
+
+.font-awesome-email:before {
+  content: "\f1fa";
+  font-family: FontAwesome;
+  color: gray;
+}
+
+dl {
+  padding: 0;
+  margin-left: 120px;
+}
+
+.table-a {
+  color: #03a7fe;
+  font: normal 400 12px Arial;
+  line-height: 33px;
+}
+
+dl {
+  overflow: hidden;
+  color: #505050;
+  font: normal 400 12px Arial;
+  line-height: 33px;
+}
+
+dt {
+  float: left;
+  margin-right: 4px;
+  text-align: right;
+}
+
+dd {
+  margin-bottom: 4px;
+  padding-left: 200px;
+}
+
+.font, .font-h {
+  font-family: Arial;
+  font-weight: 400;
+  color: #444;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.font-h {
+  color: #03a7fe;
+  font-size: 18px;
+}
+
+.goals {
+  color: #010101;
+  font-family: Arial;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 33px;
+}
+
+h2.goals {
+  padding-bottom: 18px;
+  border-bottom: 1px solid #03a7fe;
+  margin-bottom: 14px;
+}
+
+.picture {
+  padding: 15px 0 25px 0;
+}
+
+h3.font-h {
+  padding: 15px 0 15px 0;
+}
+
+.font-awesome-comment:after {
+  content: "\f111 \f111 \f111";
+  font-family: FontAwesome;
+  color: #03a7fe;
+}
+
+span.goals {
+  padding-bottom: 18px;
+  border-bottom: 1px solid #03a7fe;
+  margin-bottom: 14px;
+}
+
+footer {
+  margin: 200px 212px 0 210px;
+  border-top: 1px solid gray;
+}
+
+.footer {
+  margin-left: 241px;
+  width: 503px;
+  display: inline-block;
+  padding-left: 12px;
+  border: 1px solid gray;
+  border-top: none;
+  background: #d9dada;
+  border-radius: 0 0 15px 15px;
+}
+
+.font-footer {
+  font: normal 400 10px Arial;
+  line-height: 33px;
+  color: #78797b;
+}
+
+.black {
+  color: black;
+}
+
+.margin-for-p {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-img {
+  padding-left: 200px;
+}
+
+body {
+  width: 1200px;
+  background: linear-gradient(to bottom, #d4dcdd, #fff) no-repeat;
+}
+
+.float {
+  float: left;
+}
+
+.ulll {
+  font-size: 0;
+  padding: 0;
+  margin: 0;
+}
+.ulll li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+}
+
+.category {
+  padding: 0;
+  margin: 0;
+}
+.category li {
+  display: inline-block;
+}
+
+.read {
+  text-decoration: underline;
+  color: #03a7fe;
+}
